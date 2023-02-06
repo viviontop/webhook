@@ -1,3 +1,4 @@
+//You need cURL library installed! (install with ".\vcpkg install curl")
 #include <iostream>
 #include <string>
 #include <curl/curl.h>
