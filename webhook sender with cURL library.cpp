@@ -19,7 +19,7 @@ int main(void) {
     cout << "\ntext: ";
         char caca[501];
         cin.getline(caca, 501);
-        std::string payload = "{\"content\": \"";
+        string payload = "{\"content\": \"";
         payload += caca;
         payload += "\"}";
     CURL* curl;
